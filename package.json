@@ -1,20 +1,29 @@
 {
-  "name": "weather_app",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.1.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "eslint": "8.18.0",
-    "eslint-config-next": "12.1.6"
-  }
+	"name": "weather_app",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@chakra-ui/react": "^2.2.1",
+		"@emotion/react": "^11",
+		"@emotion/styled": "^11",
+		"framer-motion": "^6",
+		"luxon": "^2.4.0",
+		"next": "12.1.6",
+		"nextjs-progressbar": "^0.0.14",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-icons": "^4.4.0",
+		"react-loader-spinner": "^5.1.5",
+		"react-toastify": "^9.0.5"
+	},
+	"devDependencies": {
+		"eslint": "8.18.0",
+		"eslint-config-next": "12.1.6"
+	}
 }
